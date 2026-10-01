@@ -12,13 +12,13 @@ public class Loginpage {
 
 	public static void main(String[] args) {
 		 WebDriverManager.chromedriver().setup();
-		 //WebDriver driver = new ChromeDriver();
+		 WebDriver driver1 = new ChromeDriver();
 		
-		 ChromeOptions options = new ChromeOptions();
-		 options.addArguments("--incognito");
+		// ChromeOptions options = new ChromeOptions();
+		 //options.addArguments("--incognito");
 
 	        // Pass options to ChromeDriver
-	        WebDriver driver1 = new ChromeDriver(options);
+	       // WebDriver driver1 = new ChromeDriver(options);
 		 
 		 driver1.get("https://selenium-prd.firebaseapp.com/");
 		 
